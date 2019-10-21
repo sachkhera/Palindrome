@@ -3,7 +3,7 @@ public class PalindromeTest
 {  
    public static void main(String args[])  
    {  
-      String original = "#Nitin#"; 
+      String original = "Refer"; 
      String  reverse = "";
         original = original.toLowerCase();
        original = original.replaceAll("\\s","");
@@ -14,7 +14,7 @@ public class PalindromeTest
        
      }
       if (original.equals(reverse))  
-         System.out.println("Entered string/number is a palindrome." + "Entered original " +   original    +    " is  matching with the "+ reverse +"  a palindrome.");  
+         System.out.println("Entered original " +   original    +    " is  matching with the "+ reverse +"  a palindrome.");  
       else  
          System.out.println("Entered original " +   original    +    " is not matching with the "+ reverse +" hence not a palindrome.");   
    }  
